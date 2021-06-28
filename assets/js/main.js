@@ -159,13 +159,6 @@
   }
 
   /**
-   * Initiate  glightbox 
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
-
-  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
