@@ -410,7 +410,7 @@ h6 {
 #hero {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background: radial-gradient(circle, rgba(66, 33, 11, 0.9) 0%, rgba(16, 8, 3) 60%);
   background-size: contain;
   background-repeat: no-repeat;
