@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          <img src="assets/img/hero-img.png" width="100%" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -571,24 +571,24 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form netlify name="contacto" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Nombre</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <input type="text" name="nombre" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Correo electrónico</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <input type="email" class="form-control" name="correo" id="email" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Asunto</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+                <input type="text" class="form-control" name="asunto" id="subject" required>
               </div>
               <div class="form-group">
                 <label for="name">Mensaje</label>
-                <textarea class="form-control" name="message" rows="5" required></textarea>
+                <textarea class="form-control" name="mensaje" rows="5" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Cargando</div>
@@ -615,8 +615,8 @@
           <div class="col-lg-6">
             <h4>Recibe las últimas novedades y anuncios especiales</h4>
             <p>Ingresa un correo electrónico para recibir un boletín con toda la información</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Suscribir">
+            <form name="boletin" netlify>
+              <input type="email" name="correo"><input type="submit" value="Suscribir">
             </form>
           </div>
         </div>
@@ -628,7 +628,7 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-contact">
-            <a href="index.html" class="mx-auto"><img src="assets/img/fx-logo.png" alt="" class="img-fluid"></a>
+            <a href="index.html" class="mx-auto"><img src="assets/img/fx-logo.png" width="120px" alt="Logo Fortunario" class="img-fluid"></a>
             <p>
               <strong>Teléfono:</strong> 025008626<br>
               <strong>Correo:</strong> fortunarioactivosdigitales@gmail.com<br>
